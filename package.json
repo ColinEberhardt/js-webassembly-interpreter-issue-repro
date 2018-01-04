@@ -1,0 +1,21 @@
+{
+  "name": "js-webassembly-interpreter-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "babel": "babel --out-dir lib/ src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "@babel/cli": "^7.0.0-beta.34",
+    "@babel/code-frame": "^7.0.0-beta.36",
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-flow": "^7.0.0-beta.34"
+  }
+}
